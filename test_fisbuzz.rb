@@ -7,4 +7,7 @@ class TestFisbuzz < Minitest::Test
 		assert_equal("Error", fisbuzz("R"))
 	end
 
+	def test_if_entry_is_num
+		assert_equal(2, fisbuzz(2))
+	end
 end
